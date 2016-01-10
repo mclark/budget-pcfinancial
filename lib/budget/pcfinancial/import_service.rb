@@ -2,7 +2,7 @@ require_relative 'import_job'
 
 module Budget
   module PcFinancial
-    class ImportService < ImportService
+    class ImportService < Budget::ImportService
       preference :client_number
       preference :password
 
@@ -19,4 +19,4 @@ module Budget
   end
 end
 
-ImportService.register(Budget::PcFinancial::ImportService)
+Budget::ImportService.register(Budget::PcFinancial::ImportService)

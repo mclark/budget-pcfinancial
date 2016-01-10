@@ -1,7 +1,7 @@
 require 'budget/pcfinancial/version'
+require 'budget/pcfinancial/engine'
 
 module Budget
   module PcFinancial
-    # Your code goes here...
   end
 end

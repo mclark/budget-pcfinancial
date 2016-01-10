@@ -1,4 +1,5 @@
-require 'pc_financial/import_controller'
+require_relative 'import_controller'
+require_relative 'client'
 
 module Budget
   module PcFinancial

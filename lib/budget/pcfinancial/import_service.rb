@@ -1,4 +1,4 @@
-require 'pc_financial/import_job'
+require_relative 'import_job'
 
 module Budget
   module PcFinancial

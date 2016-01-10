@@ -1,5 +1,5 @@
 require 'csv'
-require 'pc_financial/transaction'
+require_relative 'transaction'
 
 module Budget
   module PcFinancial
